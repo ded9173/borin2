@@ -4,22 +4,103 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3238dcdb-0768-4004-b4f1-c098f7efba20" name="Changes" comment=" fd">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="3238dcdb-0768-4004-b4f1-c098f7efba20" name="Changes" comment="Коммит 4: отчёт docs/review/security_report.md + deps_report.md">
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deds.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/customer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/customer_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/notes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/production_order.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/puzzle_captha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/specification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blueprints/web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/customer_dto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/items_dto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/note_dto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/production_orders_dto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/sales_order_dto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/specification_dto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/user_dto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/extensions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/puzzle_captcha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/base_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/cost_price_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/customer_order_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/customer_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/items_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/price_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/production_order_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/specification_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/repository/users_repository.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/auth_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/base_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/custimer_order_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/customer_servise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/items_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/production_order_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/user_servise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/base_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/customer_order_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/customer_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items_views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/notes_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/production_order_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/specification_view.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/review/checklist.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/review/deps_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/review/logic_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/review/repo_map.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/review/route_db_findings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/review/security_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/review/style_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/review/style_report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/admin-dashbord.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/base-dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/customer-order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/customer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/items.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/notes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/production-orders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sales-orders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/specification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user-dashboard.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -58,6 +139,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.run.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -71,7 +153,29 @@
       <recent name="C:\Users\Данил\IdeaProjects\deds" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.create_admin">
+    <configuration name="create_admin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Borin" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Borin" />
       <option name="ENV_FILES" value="" />
@@ -96,6 +200,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_admin" />
         <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
@@ -116,11 +221,75 @@
       <option name="project" value="LOCAL" />
       <updated>1795526775655</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <option name="closed" value="true" />
+      <created>1795527652386</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1795527652386</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1795527674292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1795527674292</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Коммит 1: файл docs/review/repo_map.md + checklist.md">
+      <option name="closed" value="true" />
+      <created>1795527752680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1795527752680</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Коммит 2: отчёт docs/review/style_report.md + выгрузка flake8 (style_report.txt)">
+      <option name="closed" value="true" />
+      <created>1795527781841</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1795527781841</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Коммит 3: отчёт docs/review/logic_report.md + таблица замечаний по маршрутам и БД">
+      <option name="closed" value="true" />
+      <created>1795527818407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1795527818407</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Коммит 4: отчёт docs/review/security_report.md + deps_report.md">
+      <option name="closed" value="true" />
+      <created>1795527830058</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1795527830058</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" fd" />
-    <option name="LAST_COMMIT_MESSAGE" value=" fd" />
+    <MESSAGE value="1" />
+    <MESSAGE value="Коммит 1: файл docs/review/repo_map.md + checklist.md" />
+    <MESSAGE value="Коммит 2: отчёт docs/review/style_report.md + выгрузка flake8 (style_report.txt)" />
+    <MESSAGE value="Коммит 3: отчёт docs/review/logic_report.md + таблица замечаний по маршрутам и БД" />
+    <MESSAGE value="Коммит 4: отчёт docs/review/security_report.md + deps_report.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Коммит 4: отчёт docs/review/security_report.md + deps_report.md" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/models.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
